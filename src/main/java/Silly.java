@@ -79,6 +79,14 @@ public class Silly implements Comparable<Silly>{
      *       strings (e.g. this.name = [first string] + [second string]).
      *       Make sure you document this method!
      */
+
+    /**
+     * Overrides the name method for Silly.
+     * The constructor takes in two strings as the arguments.
+     *
+     * @param firstString a string for the first part of the Silly instance's name.
+     * @param secondString a string for the second part of the Silly instance's name.
+     */
     public Silly(String firstString, String secondString) { this.name = firstString + secondString; }
 
 
